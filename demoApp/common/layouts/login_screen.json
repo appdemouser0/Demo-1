@@ -1,0 +1,12 @@
+{
+    "screen": {
+        "name": "Login",
+        "id": 1,
+        "onLoad": [],
+        "layout": {
+
+        },
+        "onError": [],
+        "stringReference": ""
+    }
+}

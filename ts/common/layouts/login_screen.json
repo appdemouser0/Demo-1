@@ -3,10 +3,32 @@
         "name": "Login",
         "id": 1,
         "onLoad": [],
-        "layout": {
-
-        },
+        "layout": [{
+            "viewId": "1",
+            "viewType": "stackView",
+            "orientation": "vertical",
+            "percentages": [20, 60, 20],
+            "childs": [{
+                    "viewId": "2",
+                    "viewType": "imageView",
+                    "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                    "style": "alpha:1|width:300|height:60|bgColor:#ffff00|borderColor:null|radius:null|align:center"
+                },
+                {
+                    "viewId": "3",
+                    "viewType": "imageView",
+                    "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                    "style": "alpha:1|width:300|height:60|bgColor:#ff0000|borderColor:null|radius:null|align:center"
+                },
+                {
+                    "viewId": "4",
+                    "viewType": "imageView",
+                    "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                    "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                }
+            ]
+        }],
         "onError": [],
-        "stringReference": ""
+        "stringReference": "common.strings"
     }
 }

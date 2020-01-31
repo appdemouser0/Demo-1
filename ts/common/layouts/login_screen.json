@@ -3,7 +3,7 @@
         "name": "Login",
         "id": 1,
         "onLoad": [],
-        "style": "bgColor: #CCCFFF",
+        "style": "bgColor:#CCCFFF",
         "layout": [{
             "viewId": 1,
             "viewType": "stackView",

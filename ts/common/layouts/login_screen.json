@@ -32,7 +32,7 @@
                         {
                             "viewId": 6,
                             "viewType": "textField",
-                            "properties": "name:username|placeholder:Enter Username",
+                            "properties": "name:username|placeholder:Enter Username|secure:false",
                             "style": "alpha:1|width:300|height:60|bgColor:null|borderColor:#0000ff|radius:null|align:left"
                         },
                         {
@@ -44,7 +44,7 @@
                         {
                             "viewId": 8,
                             "viewType": "textField",
-                            "properties": "name:password|placeholder:Enter Password",
+                            "properties": "name:password|placeholder:Enter Password|secure:true",
                             "style": "alpha:1|width:300|height:60|bgColor:null|borderColor:#0000ff|radius:null|align:left"
                         },
                         {

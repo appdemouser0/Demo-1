@@ -61,7 +61,7 @@
                     "childs": [{
                             "viewId": 11,
                             "viewType": "button",
-                            "properties": "name:login|image:null|highlight:null|isUserInteraction:true",
+                            "properties": "name:login|placeholder:Login|image:null|highlight:null|isUserInteraction:true",
                             "style": "alpha:1|bgColor:#3498DB|borderColor:#1B4F72|textColor:#F7F9F9|radius:5|align:center",
                             "action": ""
                         },
@@ -69,10 +69,10 @@
                             "viewId": 12,
                             "viewType": "label",
                             "properties": "name:copyright|displayText:Copyright © 2020 All rights reserved",
-                            "style": "alpha:1|fontsize:22|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
+                            "style": "alpha:1|fontsize:18|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
                         }
                     ],
-                    "percentages": [35, 65]
+                    "percentages": [40, 60]
                 }
             ]
         }],

@@ -35,13 +35,13 @@
                             "viewId": 6,
                             "viewType": "label",
                             "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                            "style": "alpha:1|width:300|height:60|bgColor:#ff0000|borderColor:null|radius:null|align:center"
                         },
                         {
                             "viewId": 7,
                             "viewType": "textField",
                             "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                            "style": "alpha:1|width:300|height:60|bgColor:#0f0fff|borderColor:null|radius:null|align:center"
                         }
                     ],
                     "percentages": [25, 25, 25, 25]
@@ -54,13 +54,13 @@
                             "viewId": 9,
                             "viewType": "button",
                             "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                            "style": "alpha:1|width:300|height:60|bgColor:#f00fff|borderColor:null|radius:null|align:center"
                         },
                         {
                             "viewId": 10,
                             "viewType": "label",
                             "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                            "style": "alpha:1|width:300|height:60|bgColor:#00ffff|borderColor:null|radius:null|align:center"
                         }
                     ],
                     "percentages": [60, 40]

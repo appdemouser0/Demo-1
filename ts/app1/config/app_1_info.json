@@ -4,6 +4,6 @@
     "app_name": "app1",
     "commonFiles": "common.zip",
     "appFiles": "ui.zip",
-    "firstScreen": "common/layouts/login_screen.json",
+    "firstScreen": "ui/layouts/screen1.json",
     "extras": ""
 }

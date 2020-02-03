@@ -17,15 +17,53 @@
                 },
                 {
                     "viewId": 3,
-                    "viewType": "imageView",
-                    "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                    "style": "alpha:1|width:300|height:60|bgColor:#ff0000|borderColor:null|radius:null|align:center"
+                    "viewType": "stackView",
+                    "orientation": "vertical",
+                    "childs": [{
+                            "viewId": 4,
+                            "viewType": "label",
+                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                        },
+                        {
+                            "viewId": 5,
+                            "viewType": "textField",
+                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                        },
+                        {
+                            "viewId": 6,
+                            "viewType": "label",
+                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                        },
+                        {
+                            "viewId": 7,
+                            "viewType": "textField",
+                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                        }
+                    ],
+                    "percentages": [25, 25, 25, 25]
                 },
                 {
-                    "viewId": 4,
-                    "viewType": "imageView",
-                    "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                    "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                    "viewId": 8,
+                    "viewType": "stackView",
+                    "orientation": "vertical",
+                    "childs": [{
+                            "viewId": 9,
+                            "viewType": "button",
+                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                        },
+                        {
+                            "viewId": 10,
+                            "viewType": "label",
+                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                            "style": "alpha:1|width:300|height:60|bgColor:#0000ff|borderColor:null|radius:null|align:center"
+                        }
+                    ],
+                    "percentages": [60, 40]
                 }
             ]
         }],

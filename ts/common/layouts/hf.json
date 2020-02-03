@@ -1,0 +1,46 @@
+{
+    "screen": {
+        "name": "Login",
+        "id": 1,
+        "onLoad": [],
+        "style": "bgColor:#D3D3D3",
+        "layout": [{
+            "viewId": 1,
+            "viewType": "stackView",
+            "orientation": "vertical",
+            "percentages": [20, 60, 20],
+            "childs": [{
+                    "viewId": 2,
+                    "viewType": "imageView",
+                    "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                    "style": "alpha:1|bgColor:#ffffff|borderColor:null|radius:null|align:center"
+                },
+                {
+                    "viewId": 3,
+                    "viewType": "space"
+                },
+                {
+                    "viewId": 4,
+                    "viewType": "stackView",
+                    "orientation": "vertical",
+                    "childs": [{
+                            "viewId": 5,
+                            "viewType": "label",
+                            "properties": "name:copyright|displayText:Powered by TS",
+                            "style": "alpha:1|fontsize:18|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
+                        },
+                        {
+                            "viewId": 6,
+                            "viewType": "label",
+                            "properties": "name:copyright1|displayText:Copyright © 2020 All rights reserved",
+                            "style": "alpha:1|fontsize:16|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
+                        }
+                    ],
+                    "percentages": [40, 60]
+                }
+            ]
+        }],
+        "onError": [],
+        "stringReference": "common.strings"
+    }
+}

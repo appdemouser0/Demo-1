@@ -33,7 +33,20 @@
                             "viewId": 6,
                             "viewType": "textField",
                             "properties": "name:username|placeholder:Enter Username|secure:false",
-                            "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#0000ff|radius:null|align:left"
+                            "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#0000ff|radius:null|align:left",
+                            "action": [{
+                                "validator": "required",
+                                "params": "",
+                                "errMsg": "required field"
+                            }, {
+                                "validator": "minlength",
+                                "params": "4",
+                                "errMsg": "minimum length required"
+                            }, {
+                                "validator": "maxlength",
+                                "params": "20",
+                                "errMsg": "reached max length"
+                            }]
                         },
                         {
                             "viewId": 7,
@@ -63,7 +76,7 @@
                             "viewType": "button",
                             "properties": "name:login|placeholder:Login|image:null|highlight:null|isUserInteraction:true",
                             "style": "alpha:1|bgColor:#3498DB|borderColor:#1B4F72|textColor:#F7F9F9|radius:5|align:center",
-                            "action": ""
+                            "action": "onLogin"
                         },
                         {
                             "viewId": 12,

@@ -13,7 +13,7 @@
                     "viewId": 2,
                     "viewType": "imageView",
                     "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                    "style": "alpha:1|width:300|height:60|bgColor:#ffff00|borderColor:null|radius:null|align:center"
+                    "style": "alpha:1|bgColor:#fff|borderColor:null|radius:null|align:center"
                 },
                 {
                     "viewId": 3,
@@ -27,32 +27,32 @@
                             "viewId": 5,
                             "viewType": "label",
                             "properties": "name:username_label|displayText:Username:",
-                            "style": "alpha:1|width:300|height:60|textColor:#000|bgColor:null|borderColor:null|radius:null|align:left"
+                            "style": "alpha:1|fontsize:20|textColor:#000|bgColor:null|borderColor:null|radius:null|align:left"
                         },
                         {
                             "viewId": 6,
                             "viewType": "textField",
                             "properties": "name:username|placeholder:Enter Username|secure:false",
-                            "style": "alpha:1|width:300|height:60|bgColor:null|borderColor:#0000ff|radius:null|align:left"
+                            "style": "alpha:1|fontsize:20|textColor:#000|bgColor:null|borderColor:#0000ff|radius:null|align:left"
                         },
                         {
                             "viewId": 7,
                             "viewType": "label",
                             "properties": "name:password|displayText:Password:",
-                            "style": "alpha:1|width:300|height:60|textColor:#000|bgColor:null|borderColor:null|radius:null|align:left"
+                            "style": "alpha:1|fontsize:20|textColor:#000|bgColor:null|borderColor:null|radius:null|align:left"
                         },
                         {
                             "viewId": 8,
                             "viewType": "textField",
                             "properties": "name:password|placeholder:Enter Password|secure:true",
-                            "style": "alpha:1|width:300|height:60|bgColor:null|borderColor:#0000ff|radius:null|align:left"
+                            "style": "alpha:1|fontsize:20|textColor:#000|bgColor:null|borderColor:#0000ff|radius:null|align:left"
                         },
                         {
                             "viewId": 9,
                             "viewType": "space"
                         }
                     ],
-                    "percentages": [10, 20, 20, 20, 20, 10]
+                    "percentages": [5, 20, 20, 20, 20, 15]
                 },
                 {
                     "viewId": 10,
@@ -61,8 +61,8 @@
                     "childs": [{
                             "viewId": 11,
                             "viewType": "button",
-                            "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
-                            "style": "alpha:1|width:300|height:60|bgColor:#f00fff|borderColor:null|radius:null|align:center"
+                            "properties": "name:login|image:null|highlight:null|isUserInteraction:true",
+                            "style": "alpha:1|bgColor:#000|borderColor:null|radius:null|align:center"
                         },
                         {
                             "viewId": 12,
@@ -71,7 +71,7 @@
                             "style": "alpha:1|width:300|height:60|textColor:#000|bgColor:null|borderColor:null|radius:null|align:center"
                         }
                     ],
-                    "percentages": [60, 40]
+                    "percentages": [30, 70]
                 }
             ]
         }],

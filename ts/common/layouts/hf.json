@@ -23,13 +23,13 @@
                 "childs": [{
                         "viewId": 5,
                         "viewType": "label",
-                        "properties": "name:copyright|displayText:Powered by TS",
+                        "properties": "name:copyright|displayText:$c->poweredBy",
                         "style": "alpha:1|fontsize:18|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
                     },
                     {
                         "viewId": 6,
                         "viewType": "label",
-                        "properties": "name:copyright1|displayText:Copyright © 2020 All rights reserved",
+                        "properties": "name:copyright1|displayText:$c->copyright",
                         "style": "alpha:1|fontsize:16|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
                     }
                 ]

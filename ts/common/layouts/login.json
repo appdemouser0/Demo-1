@@ -13,6 +13,10 @@
                 "viewType": "stackView",
                 "orientation": "vertical",
                 "childs": [{
+                        "viewId": 3,
+                        "viewType": "space"
+                    },
+                    {
                         "viewId": 4,
                         "viewType": "label",
                         "properties": "name:username_label|displayText:Username:",
@@ -50,6 +54,10 @@
                         "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#0000ff|radius:null|align:left"
                     },
                     {
+                        "viewId": 3,
+                        "viewType": "space"
+                    },
+                    {
                         "viewId": 8,
                         "viewType": "button",
                         "properties": "name:login|placeholder:Login|image:null|highlight:null|isUserInteraction:true",
@@ -57,7 +65,7 @@
                         "action": "onLogin"
                     }
                 ],
-                "percentages": []
+                "percentages": [5, 10, 20, 10, 20, 5, 30]
             },
             {
                 "viewId": 3,

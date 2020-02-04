@@ -8,7 +8,7 @@
         "childs": [{
                 "viewId": 2,
                 "viewType": "imageView",
-                "properties": "name:banner|image:logo.png|highlight:null|isUserInteraction:false",
+                "properties": "name:banner|image:common/assets/logo.png|highlight:null|isUserInteraction:false",
                 "style": "alpha:1|bgColor:#ffffff|borderColor:null|radius:null|align:center"
             },
             {

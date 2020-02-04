@@ -1,0 +1,7 @@
+{
+    "viewId": 1,
+    "viewType": "button",
+    "properties": "name:button|placeholder:button|image:null|highlight:null|isUserInteraction:true",
+    "style": "alpha:1|bgColor:#3498DB|borderColor:#1B4F72|textColor:#F7F9F9|radius:5|align:center",
+    "action": "onAction"
+}

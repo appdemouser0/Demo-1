@@ -4,6 +4,6 @@
         "id": 1,
         "onLoad": [],
         "style": "bgColor:#D3D3D3",
-        "parent": "common/layout/hf.json"
+        "parent": "common/layouts/hf.json"
     }
 }

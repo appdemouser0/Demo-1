@@ -19,6 +19,7 @@
                 "viewId": 4,
                 "viewType": "stackView",
                 "orientation": "vertical",
+                "percentages": [40, 60],
                 "childs": [{
                         "viewId": 5,
                         "viewType": "label",
@@ -31,8 +32,7 @@
                         "properties": "name:copyright1|displayText:Copyright © 2020 All rights reserved",
                         "style": "alpha:1|fontsize:16|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
                     }
-                ],
-                "percentages": [40, 60]
+                ]
             }
         ]
     }]

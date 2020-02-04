@@ -1,0 +1,9 @@
+{
+    "viewId": 1,
+    "viewType": "stackView",
+    "orientation": "vertical",
+    "percentages": [],
+    "child": [{
+        /* combination of widgets */
+    }]
+}

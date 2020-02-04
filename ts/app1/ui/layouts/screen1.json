@@ -3,7 +3,7 @@
         "name": "Login",
         "id": 1,
         "onLoad": [],
-        "style": "bgColor:#F4F6F7",
+        "style": "bgColor:#FFFFFF",
         "parent": "common/layouts/hf.json"
     }
 }

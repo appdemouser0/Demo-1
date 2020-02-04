@@ -1,0 +1,11 @@
+{
+    "viewId": 1,
+    "viewType": "textField",
+    "properties": "name:textfield|placeholder:placeholder|secure:false",
+    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#0000ff|radius:null|align:left",
+    "action": [{
+        "validator": "required",
+        "params": "",
+        "errMsg": "required field"
+    }]
+}

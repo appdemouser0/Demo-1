@@ -63,9 +63,13 @@
                         "properties": "name:login|placeholder:Login|image:null|highlight:null|isUserInteraction:true",
                         "style": "alpha:1|bgColor:#3498DB|borderColor:#1B4F72|textColor:#F7F9F9|radius:5|align:center",
                         "action": "onLogin"
+                    },
+                    {
+                        "viewId": 3,
+                        "viewType": "space"
                     }
                 ],
-                "percentages": [5, 10, 20, 10, 20, 5, 30]
+                "percentages": [15, 10, 15, 10, 15, 5, 15, 15]
             },
             {
                 "viewId": 3,

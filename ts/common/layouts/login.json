@@ -1,5 +1,5 @@
 {
-    "parent": "common/hf.json",
+    "parent": "common/layouts/hf.json",
     "layout": [{
         "viewId": 3,
         "viewType": "stackView",

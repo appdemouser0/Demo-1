@@ -4,7 +4,7 @@
         "id": 1,
         "onLoad": [],
         "style": "bgColor:#D3D3D3",
-        "parent": "common/login.json",
+        "parent": "common/layouts/login.json",
         "removeItems": [],
         "addItems": []
     }

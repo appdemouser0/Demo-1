@@ -1,6 +1,6 @@
 {
     "parent": "common/layouts/hf.json",
-    "replaceView": 3,
+    "appendView": 3,
     "layout": [{
         "viewId": 100,
         "viewType": "stackView",

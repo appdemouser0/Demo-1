@@ -6,6 +6,21 @@
         "style": "bgColor:#D98880",
         "parent": "common/layouts/login.json",
         "removeItems": [103],
-        "addItems": []
+        "addItems": [{
+            "position": 100,
+            "childs": [{
+                    "viewId": 204,
+                    "viewType": "label",
+                    "properties": "name:email|displayText:Email",
+                    "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+                },
+                {
+                    "viewId": 205,
+                    "viewType": "textField",
+                    "properties": "name:password|placeholder:Enter email|secure:false",
+                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#00ff00|radius:null|align:left"
+                }
+            ]
+        }]
     }
 }

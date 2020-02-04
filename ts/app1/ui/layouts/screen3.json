@@ -3,7 +3,7 @@
         "name": "Login",
         "id": 1,
         "onLoad": [],
-        "style": "bgColor:#D3D3D3",
+        "style": "bgColor:#D98880",
         "parent": "common/layouts/login.json",
         "removeItems": [],
         "addItems": []

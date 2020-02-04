@@ -5,7 +5,7 @@
         "onLoad": [],
         "style": "bgColor:#D98880",
         "parent": "common/layouts/login.json",
-        "removeItems": [],
+        "removeItems": [103],
         "addItems": []
     }
 }

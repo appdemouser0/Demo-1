@@ -1,0 +1,6 @@
+{
+    "viewId": 1,
+    "viewType": "label",
+    "properties": "name:label|displayText:label",
+    "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+}

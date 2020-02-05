@@ -20,15 +20,15 @@
                 "action": [{
                     "validator": "required",
                     "params": "",
-                    "errMsg": "required field"
+                    "errMsg": "$c->error_required"
                 }, {
                     "validator": "minlength",
-                    "params": "4",
-                    "errMsg": "minimum length required"
+                    "params": "5",
+                    "errMsg": "$c->error_minlength"
                 }, {
                     "validator": "maxlength",
                     "params": "20",
-                    "errMsg": "reached max length"
+                    "errMsg": "$c->error_maxlength"
                 }]
             },
             {
@@ -57,11 +57,11 @@
                 "action": [{
                     "validator": "required",
                     "params": "",
-                    "errMsg": "required field"
+                    "errMsg": "$c->error_required"
                 }, {
                     "validator": "email",
-                    "params": "4",
-                    "errMsg": "enter valid email"
+                    "params": "",
+                    "errMsg": "$c->error_email"
                 }]
             },
             {

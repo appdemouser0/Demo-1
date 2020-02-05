@@ -1,9 +1,0 @@
-{
-    "screen": {
-        "name": "Login",
-        "id": 1,
-        "onLoad": [],
-        "style": "bgColor:#FFFFFF",
-        "parent": "common/layouts/hf.json"
-    }
-}

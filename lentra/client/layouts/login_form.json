@@ -41,7 +41,12 @@
                 "viewId": 104,
                 "viewType": "textField",
                 "properties": "name:password|placeholder:$c->passwordPlaceHolder|secure:true",
-                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left"
+                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left",
+                "action": [{
+                    "validator": "required",
+                    "params": "",
+                    "errMsg": "$c->error_required"
+                }]
             },
             {
                 "viewId": 105,

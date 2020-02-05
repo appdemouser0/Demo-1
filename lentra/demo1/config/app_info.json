@@ -1,8 +1,8 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.0",
     "cdn_url": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/lentra",
     "app_name": "demo1",
-    "commonFiles": "client_updated.zip",
+    "commonFiles": "client.zip",
     "appFiles": "demo1.zip",
     "firstScreen": "demo1/layouts/main_screen.json",
     "extras": ""

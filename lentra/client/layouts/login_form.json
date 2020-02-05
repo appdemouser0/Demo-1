@@ -1,0 +1,75 @@
+{
+    "parent": "client/layouts/header_footer.json",
+    "appendView": 3,
+    "layout": [{
+        "viewId": 100,
+        "viewType": "stackView",
+        "orientation": "vertical",
+        "percentages": [],
+        "childs": [{
+                "viewId": 101,
+                "viewType": "label",
+                "properties": "name:username_label|displayText:$c->usernameLbl",
+                "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+            },
+            {
+                "viewId": 102,
+                "viewType": "textField",
+                "properties": "name:username|placeholder:$c->usernamePlaceHolder|secure:false",
+                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left",
+                "action": [{
+                    "validator": "required",
+                    "params": "",
+                    "errMsg": "required field"
+                }, {
+                    "validator": "minlength",
+                    "params": "4",
+                    "errMsg": "minimum length required"
+                }, {
+                    "validator": "maxlength",
+                    "params": "20",
+                    "errMsg": "reached max length"
+                }]
+            },
+            {
+                "viewId": 103,
+                "viewType": "label",
+                "properties": "name:password_label|displayText:$c->passwordLbl",
+                "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+            },
+            {
+                "viewId": 104,
+                "viewType": "textField",
+                "properties": "name:password|placeholder:$c->passwordPlaceHolder|secure:true",
+                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left"
+            },
+            {
+                "viewId": 105,
+                "viewType": "label",
+                "properties": "name:email_label|displayText:$c->emailLbl",
+                "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+            },
+            {
+                "viewId": 106,
+                "viewType": "textField",
+                "properties": "name:email|placeholder:$c->emailPlaceHolder|secure:false",
+                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left"
+            },
+            {
+                "viewId": 107,
+                "viewType": "space"
+            },
+            {
+                "viewId": 108,
+                "viewType": "button",
+                "properties": "name:btn|placeholder:$c->submitBtnLbl|image:null|highlight:null|isUserInteraction:true",
+                "style": "alpha:1|bgColor:#1C2833|borderColor:#17202A|textColor:#F7F9F9|radius:5|align:center",
+                "action": "onLogin"
+            },
+            {
+                "viewId": 109,
+                "viewType": "space"
+            }
+        ]
+    }]
+}

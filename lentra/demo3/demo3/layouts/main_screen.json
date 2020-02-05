@@ -18,7 +18,7 @@
                     "viewId": 201,
                     "viewType": "textField",
                     "properties": "name:pannumber|placeholder:$a->panPlaceHolder|secure:false",
-                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#D35400|radius:null|align:left"
+                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#239B56|radius:null|align:left"
                 },
                 {
                     "viewId": 202,
@@ -30,7 +30,7 @@
                     "viewId": 203,
                     "viewType": "textField",
                     "properties": "name:phone|placeholder:$a->phonePlaceHolder|secure:false",
-                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#D35400|radius:null|align:left"
+                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#239B56|radius:null|align:left"
                 },
                 {
                     "viewId": 204,

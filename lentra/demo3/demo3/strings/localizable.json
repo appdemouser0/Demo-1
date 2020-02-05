@@ -3,5 +3,6 @@
     "panPlaceHolder": "Enter Pan Number..",
     "phoneLbl": "Phone :",
     "phonePlaceHolder": "Enter Phone..",
-    "submitBtnLbl": "Login Here"
+    "submitBtnLbl": "Login Here",
+    "error_pannumber": "Pan Number is not valid"
 }

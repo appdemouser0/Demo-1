@@ -1,0 +1,39 @@
+{
+    "parent": "",
+    "layout": [{
+        "viewId": 1,
+        "viewType": "stackView",
+        "orientation": "vertical",
+        "percentages": [15, 70, 15],
+        "childs": [{
+                "viewId": 2,
+                "viewType": "imageView",
+                "properties": "name:banner|image:client/assets/logo.png|highlight:null|isUserInteraction:false",
+                "style": "alpha:1|bgColor:#ffffff|borderColor:null|radius:null|align:center"
+            },
+            {
+                "viewId": 3,
+                "viewType": "space"
+            },
+            {
+                "viewId": 4,
+                "viewType": "stackView",
+                "orientation": "vertical",
+                "percentages": [40, 60],
+                "childs": [{
+                        "viewId": 5,
+                        "viewType": "label",
+                        "properties": "name:copyright|displayText:$c->poweredBy",
+                        "style": "alpha:1|fontsize:18|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
+                    },
+                    {
+                        "viewId": 6,
+                        "viewType": "label",
+                        "properties": "name:copyright1|displayText:$c->copyright",
+                        "style": "alpha:1|fontsize:16|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
+                    }
+                ]
+            }
+        ]
+    }]
+}

@@ -1,8 +1,8 @@
 {
-    "panLbl": "Pan Number:",
-    "panPlaceHolder": "Enter Pan Number..",
-    "phoneLbl": "Phone :",
+    "panLbl": "PAN Number",
+    "panPlaceHolder": "Enter PAN Number..",
+    "phoneLbl": "Phone",
     "phonePlaceHolder": "Enter Phone..",
     "submitBtnLbl": "Login Here",
-    "error_pannumber": "Pan Number is not valid"
+    "error_pannumber": "PAN Number is invalid"
 }

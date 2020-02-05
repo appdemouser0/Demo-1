@@ -1,0 +1,11 @@
+{
+    "copyright": "Copyright © 2020 All rights reserved",
+    "poweredBy": "Powered by Lentra",
+    "usernameLbl": "UserName :",
+    "usernamePlaceHolder": "Enter UserName..",
+    "usernameLbl": "Password :",
+    "emailLbl": "Email :",
+    "emailPlaceHolder": "Enter Email..",
+    "passwordPlaceHolder": "Enter Password..",
+    "submitBtnLbl": "Login"
+}

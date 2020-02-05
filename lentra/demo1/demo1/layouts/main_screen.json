@@ -4,6 +4,6 @@
         "id": 1,
         "onLoad": [],
         "style": "bgColor:#FFFFFF",
-        "parent": "common/layouts/hf.json"
+        "parent": "client/layouts/login_form.json"
     }
 }

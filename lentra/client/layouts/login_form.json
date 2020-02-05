@@ -53,7 +53,16 @@
                 "viewId": 106,
                 "viewType": "textField",
                 "properties": "name:email|placeholder:$c->emailPlaceHolder|secure:false",
-                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left"
+                "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#273746|radius:null|align:left",
+                "action": [{
+                    "validator": "required",
+                    "params": "",
+                    "errMsg": "required field"
+                }, {
+                    "validator": "email",
+                    "params": "4",
+                    "errMsg": "enter valid email"
+                }]
             },
             {
                 "viewId": 107,

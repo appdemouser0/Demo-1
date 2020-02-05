@@ -4,6 +4,42 @@
         "id": 1,
         "onLoad": [],
         "style": "bgColor:#FFFFFF",
-        "parent": "client/layouts/login_form.json"
+        "parent": "client/layouts/login_form.json",
+        "removeItems": [105, 106, 107, 108, 109],
+        "addItems": [{
+            "position": 100,
+            "childs": [{
+                    "viewId": 200,
+                    "viewType": "label",
+                    "properties": "name:pan_label|displayText:$a->panLbl",
+                    "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+                },
+                {
+                    "viewId": 201,
+                    "viewType": "textField",
+                    "properties": "name:email|placeholder:$a->panPlaceHolder|secure:false",
+                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#D35400|radius:null|align:left"
+                },
+                {
+                    "viewId": 202,
+                    "viewType": "label",
+                    "properties": "name:phone_label|displayText:$a->phoneLbl",
+                    "style": "alpha:1|fontsize:22|textColor:#000000|bgColor:null|borderColor:null|radius:null|align:left"
+                },
+                {
+                    "viewId": 203,
+                    "viewType": "textField",
+                    "properties": "name:email|placeholder:$a->phonePlaceHolder|secure:false",
+                    "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#D35400|radius:null|align:left"
+                },
+                {
+                    "viewId": 204,
+                    "viewType": "button",
+                    "properties": "name:btn|placeholder:$a->submitBtnLbl|image:null|highlight:null|isUserInteraction:true",
+                    "style": "alpha:1|bgColor:#2874A6|borderColor:#17202A|textColor:#F7F9F9|radius:5|align:center",
+                    "action": "onLogin"
+                }
+            ]
+        }]
     }
 }

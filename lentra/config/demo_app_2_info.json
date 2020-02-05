@@ -1,0 +1,9 @@
+{
+    "version": "1.0.3",
+    "cdn_url": "https://raw.githubusercontent.com/BharathRamakrishnanTS/Demo/master/ts",
+    "app_name": "app1",
+    "commonFiles": "common.zip",
+    "appFiles": "ui.zip",
+    "firstScreen": "ui/layouts/screen3.json",
+    "extras": ""
+}

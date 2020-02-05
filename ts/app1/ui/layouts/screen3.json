@@ -5,7 +5,7 @@
         "onLoad": [],
         "style": "bgColor:#D98880",
         "parent": "common/layouts/login.json",
-        "removeItems": [102, 103, 107],
+        "removeItems": [102, 103, 107, 106, 108],
         "addItems": [{
             "position": 100,
             "childs": [{
@@ -21,12 +21,12 @@
                     "style": "alpha:1|fontsize:20|textColor:#000000|bgColor:null|borderColor:#00ff00|radius:null|align:left"
                 },
                 {
-                "viewId": 206,
-                "viewType": "button",
-                "properties": "name:login|placeholder:Login|image:null|highlight:null|isUserInteraction:true",
-                "style": "alpha:1|bgColor:#C0392B|borderColor:#641E16|textColor:#F7F9F9|radius:5|align:center",
-                "action": "onLogin"
-            }
+                    "viewId": 206,
+                    "viewType": "button",
+                    "properties": "name:login|placeholder:Login|image:null|highlight:null|isUserInteraction:true",
+                    "style": "alpha:1|bgColor:#C0392B|borderColor:#641E16|textColor:#F7F9F9|radius:5|align:center",
+                    "action": "onLogin"
+                }
             ]
         }]
     }

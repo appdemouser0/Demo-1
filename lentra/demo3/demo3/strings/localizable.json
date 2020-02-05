@@ -1,4 +1,7 @@
 {
-    "copyright": "Copyright © 2020 All rights reserved",
-    "poweredBy": "Powered by TS"
+    "panLbl": "Pan Number:",
+    "panPlaceHolder": "Enter Pan Number..",
+    "phoneLbl": "Phone :",
+    "phonePlaceHolder": "Enter Phone..",
+    "submitBtnLbl": "Login Here"
 }

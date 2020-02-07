@@ -4,7 +4,7 @@
         "viewId": 1,
         "viewType": "stackView",
         "orientation": "vertical",
-        "percentages": [15, 70, 15],
+        "percentages": [25, 55, 20],
         "childs": [{
                 "viewId": 2,
                 "viewType": "imageView",

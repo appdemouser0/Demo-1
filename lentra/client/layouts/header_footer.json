@@ -19,15 +19,18 @@
                 "viewId": 4,
                 "viewType": "stackView",
                 "orientation": "vertical",
-                "percentages": [50, 50],
+                "percentages": [40, 30, 30],
                 "childs": [{
                         "viewId": 5,
+                        "viewType": "space"
+                    }, {
+                        "viewId": 6,
                         "viewType": "label",
                         "properties": "name:copyright|displayText:$c->poweredBy",
                         "style": "alpha:1|fontsize:18|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"
                     },
                     {
-                        "viewId": 6,
+                        "viewId": 7,
                         "viewType": "label",
                         "properties": "name:copyright1|displayText:$c->copyright",
                         "style": "alpha:1|fontsize:16|textColor:#424949|bgColor:null|borderColor:null|radius:null|align:center"

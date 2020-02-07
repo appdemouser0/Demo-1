@@ -43,6 +43,10 @@
                 },
                 {
                     "viewId": 204,
+                    "viewType": "space"
+                },
+                {
+                    "viewId": 205,
                     "viewType": "button",
                     "properties": "name:btn|placeholder:$a->submitBtnLbl|image:null|highlight:null|isUserInteraction:true",
                     "style": "alpha:1|bgColor:#2874A6|borderColor:#17202A|textColor:#F7F9F9|radius:5|align:center",

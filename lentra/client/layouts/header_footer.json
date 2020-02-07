@@ -19,7 +19,7 @@
                 "viewId": 4,
                 "viewType": "stackView",
                 "orientation": "vertical",
-                "percentages": [40, 60],
+                "percentages": [50, 50],
                 "childs": [{
                         "viewId": 5,
                         "viewType": "label",

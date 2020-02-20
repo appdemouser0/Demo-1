@@ -1,0 +1,29 @@
+{
+    "background": {
+        "default": "",
+        "light": "",
+        "dark": "",
+        "disabled": ""
+    },
+    "text": {
+        "default": "",
+        "light": "",
+        "dark": "",
+        "disabled": ""
+    },
+    "label": {
+        "default": "",
+        "light": "",
+        "dark": "",
+        "disabled": ""
+    },
+    "button": {
+        "default": "",
+        "light": "",
+        "dark": "",
+        "disabled": ""
+    },
+    "table": {
+
+    }
+}

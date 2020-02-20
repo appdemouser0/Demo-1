@@ -1,0 +1,26 @@
+{
+    "alignment": {
+        "position": "h1:30,40,30&h2:60,50,h3:80"
+    },
+    "views": [{
+        "view1": {
+            "vv": "",
+            "orderId": "1",
+            "style": "${background.default}, ${app_strings.error}"
+        }
+    }, {
+        "view2": {
+            "aaa": "aaa",
+            "orderId": "2",
+            "style": "background-color: ${background.default}|"
+        }
+    }, {
+        "view3": {}
+    }, {
+        "view4": {}
+    }, {
+        "view5": {}
+    }, {
+        "view6": {}
+    }]
+}
